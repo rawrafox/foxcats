@@ -40,7 +40,7 @@ There are currently sixteen flags included:
 - `/parts` is where you'll find the SVG-partials used to make the bodyparts.
 - `/png` contains exported PNG-files (128px).
 - `/svg` contains exported SVG-files.
-- `foxcat-generator.rb` is the script to mash it all together.
+- `foxcat-generator` is the script to mash it all together.
 - `foxcats.json` is what tells the script how to mash it all together.
 
-To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, and lastly just `ruby foxcat-generator.rb`.
+To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, and lastly just `./foxcat-generator`.

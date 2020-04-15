@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "json"
+require 'optparse'
+
+Options = {
+  input: "#{__dir__}/foxcats.json",
+  svg: "#{__dir__}/svg",
+  png: "#{__dir__}/png",
+  thumbnails: true
+}
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: foxcat-generator [options]"
+
+  opts.on("-i", "--input INPUT", "Foxcat definition") do |v|
+    Options[:input] = v
+  end
+
+  opts.on("-s", "--svg SVG", "SVG output folder") do |v|
+    Options[:svg] = v
+  end
+
+  opts.on("-p", "--png PNG", "PNG output folder") do |v|
+    Options[:png] = v
+  end
+
+  opts.on("-t", "--[no-]thumbnails", "Generate PNG thumbnails") do |v|
+    Options[:thumbnails] = v
+  end
+end.parse!
+
+InputDirectory = File.dirname(Options[:input])
+
+FileUtils.mkdir_p(Options[:svg])
+FileUtils.mkdir_p(Options[:png])
+
+Header = <<END
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  width="128px"
+  height="128px"
+  viewBox="0 0 750 750"
+  style="shape-rendering: geometricPrecision">
+END
+
+Footer = <<END
+</svg>
+END
+
+JSON.parse(File.read(Options[:input])).each do |name, layers|
+  output = String.new
+  output << Header
+  output << "<title>#{name}</title>\n"
+  output << "<g id=\"#{name}\" style=\"display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:none;stroke-width:1\">\n"
+  output << "<g id=\"foxcatblob\" transform=\"translate(0,8.508816)\">\n"
+  layers.each { |layer| output << File.read("#{InputDirectory}/#{layer}") + "\n" }
+  output << "</g>\n"
+  output << "</g>\n"
+  output << Footer
+
+  svg = "#{Options[:svg]}/#{name}.svg"
+  png = "#{Options[:png]}/#{name}.png"
+
+  File.write(svg, output)
+
+  system("svgexport #{svg} #{png}") if Options[:thumbnails]
+end

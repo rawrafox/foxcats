@@ -8,7 +8,7 @@
   style="shape-rendering: geometricPrecision">
 <title>foxcat-polyamory</title>
 <g id="foxcat-polyamory" style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
-<g id="foxcatblob" transform="translate(0,8.508816)" style="display:inline;opacity:1">
+<g id="foxcatblob" transform="translate(0,8.508816)">
 <g id="Body">
   <clipPath id="body-mask" maskUnits="userSpaceOnUse">
     <use href="#body" height="100%" width="100%" />
