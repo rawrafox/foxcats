@@ -15,8 +15,8 @@ Header = <<END
 <svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg"
-  width="750px"
-  height="750px"
+  width="128px"
+  height="128px"
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
 END
