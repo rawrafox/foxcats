@@ -55,8 +55,8 @@ JSON.parse(File.read(Options[:input])).each do |name, layers|
   output = String.new
   output << Header
   output << "<title>#{name}</title>\n"
-  output << "<g id=\"#{name}\" style=\"display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:none;stroke-width:1\">\n"
-  output << "<g id=\"foxcatblob\" transform=\"translate(0,8.508816)\">\n"
+  output << "<g id=\"#{name}\">\n"
+  output << "<g id=\"foxcatblob\" transform=\"translate(0,8.508816)\" fill=\"none\">\n"
   layers.each { |layer| output << File.read("#{InputDirectory}/#{layer}") + "\n" }
   output << "</g>\n"
   output << "</g>\n"

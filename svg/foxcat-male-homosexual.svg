@@ -7,8 +7,8 @@
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
 <title>foxcat-male-homosexual</title>
-<g id="foxcat-male-homosexual" style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
-<g id="foxcatblob" transform="translate(0,8.508816)">
+<g id="foxcat-male-homosexual">
+<g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
 <g id="Body">
   <clipPath id="body-mask" maskUnits="userSpaceOnUse">
     <use href="#body" height="100%" width="100%" />
@@ -35,18 +35,16 @@
      fill="#2f2f2f"
      d="m 594.39216,106.52675 c 2.92876,3.43133 25.85762,-2.01145 40.48286,-5.79342 13.88328,-3.590097 68.97817,-20.526141 87.61912,-25.009 18.28567,-4.397421 25.72303,-3.010045 27.17463,-7.265397 4.33854,-12.718435 -3.67321,-30.888356 -11.35356,-36.899063 -7.68035,-6.010708 -53.56577,-1.356278 -76.30259,12.021414 -6.36805,3.746778 -47.11352,32.005262 -59.54972,42.53969 -12.4362,10.534428 -10.99949,16.974436 -8.07074,20.405776 z" />
 </g>
-<g id="Face" transform="translate(33,190.49118)">
-  <path id="Mouth"
-     d="m 196,176 c 13.33333,47.33333 23,71.33333 29,72 6,0.66667 26.66667,-18 62,-56 27.33333,46 43.66667,71.33333 49,76 5.33333,4.66667 28,-15.66667 68,-61"
-     style="stroke:#2f2f2f;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" />
-  <path id="Right-eye"
+<g id="eyes" transform="translate(33,190.49118)">
+  <path id="left-eye"
      d="m 523.3311,109.83385 c -7.39991,34.70761 -36.72804,57.98293 -65.51305,51.95873 -28.98868,-6.09266 -46.4362,-39.1573 -39.17206,-73.864914 7.39992,-34.776069 36.72805,-58.05139 65.64884,-51.958733 28.8529,5.955745 46.36831,38.951935 39.03627,73.864917 z"
-     style="fill:#2f2f2f;fill-rule:nonzero" />
-  <path id="Left-eye"
+     style="fill:#2f2f2f" />
+  <path id="right-eye"
      d="M 125.5521,36.726728 C 140.80142,6.4279134 173.70785,-7.9206442 199.0565,4.4257891 224.33827,16.83896 232.56487,51.342235 217.38244,81.574313 202.2,111.80639 169.36045,126.22168 144.0118,113.80851 118.73004,101.39534 110.43654,66.82533 125.5521,36.726728 Z"
-     style="fill:#2f2f2f;fill-rule:nonzero" />
-  <g id="Wiskers"
-     transform="translate(0.391648,152.65947)"
+     style="fill:#2f2f2f" />
+</g>
+<g id="whiskers" transform="translate(33,190.49118)">
+  <g transform="translate(0.391648,152.65947)"
      style="fill:#2f2f2f">
     <path id="Right-bottom-wisker"
        d="m 483.60835,112.34053 c 2.53627,-3.91968 24.18794,8.93954 54,29 29.81207,20.06046 60.60641,34.97192 58,39 -2.60641,4.02808 -42.80529,-5.70076 -70,-24 -27.19471,-18.29924 -44.53626,-40.08031 -42,-44 z"/>
@@ -57,6 +55,11 @@
     <path id="Left-top-wisker"
        d="M 122.60835,0.34053071 C 69.608352,-1.6594693 15.608352,5.3405307 6.6083519,16.340531 c 0,3.43817 102.9999981,3 115.9999981,0 13,-3 8.6364,-15.67409837 0,-16.00000029 z"/>
   </g>
+</g>
+<g id="mouth" transform="translate(33,190.49118)">
+  <path
+     d="m 196,176 c 13.33333,47.33333 23,71.33333 29,72 6,0.66667 26.66667,-18 62,-56 27.33333,46 43.66667,71.33333 49,76 5.33333,4.66667 28,-15.66667 68,-61"
+     style="stroke:#2f2f2f;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" />
 </g>
 <g>
   <g transform="translate(13 255)">
