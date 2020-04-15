@@ -1,8 +1,5 @@
-<defs id="defs7">
-</defs>
-
 <g id="Body">
-  <clipPath id="body-mask" clipPathUnits="userSpaceOnUse">
+  <clipPath id="body-mask" maskUnits="userSpaceOnUse">
     <use href="#body" height="100%" width="100%" />
   </clipPath>
 
