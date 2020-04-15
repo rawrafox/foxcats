@@ -2,6 +2,8 @@
   "foxcat": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg"],
 
   "foxcat-smiling": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/smiling.svg"],
+  "foxcat-smiling-open-mouth": ["parts/body.svg", "eyes/smiling.svg", "whiskers/default.svg", "mouths/open.svg"],
+  "foxcat-zipper": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/zipper.svg"],
 
   "foxcat-agender": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/agender.svg", "parts/arms.svg"],
   "foxcat-aromantic": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/aromantic.svg", "parts/arms.svg"],
