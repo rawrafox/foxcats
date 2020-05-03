@@ -5,6 +5,16 @@
   "foxcat-smiling-open-mouth": ["parts/body.svg", "eyes/smiling.svg", "whiskers/default.svg", "mouths/open.svg"],
   "foxcat-zipper": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/zipper.svg"],
 
+  "foxcat-black-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/black.svg", "parts/arms.svg"],
+  "foxcat-blue-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/blue.svg", "parts/arms.svg"],
+  "foxcat-green-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/green.svg", "parts/arms.svg"],
+  "foxcat-orange-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/orange.svg", "parts/arms.svg"],
+  "foxcat-pink-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/pink.svg", "parts/arms.svg"],
+  "foxcat-purple-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/purple.svg", "parts/arms.svg"],
+  "foxcat-red-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/red.svg", "parts/arms.svg"],
+  "foxcat-white-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/white.svg", "parts/arms.svg"],
+  "foxcat-yellow-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/yellow.svg", "parts/arms.svg"],
+
   "foxcat-agender-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/agender.svg", "parts/arms.svg"],
   "foxcat-aromantic-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/aromantic.svg", "parts/arms.svg"],
   "foxcat-asexual-heart": ["parts/body.svg", "eyes/default.svg", "whiskers/default.svg", "mouths/default.svg", "hearts/asexual.svg", "parts/arms.svg"],
