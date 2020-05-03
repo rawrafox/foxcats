@@ -6,8 +6,8 @@
   height="128px"
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
-<title>foxcat-male-homosexual</title>
-<g id="foxcat-male-homosexual">
+<title>foxcat-trans-heart</title>
+<g id="foxcat-trans-heart">
 <g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
 <g id="Body">
   <clipPath id="body-mask" maskUnits="userSpaceOnUse">
@@ -70,14 +70,10 @@
       <use href="#a"/>
     </mask>
     <use fill="#D8D8D8" href="#a"/>
-    <g mask="url(#b)">
-      <path stroke="#979797" fill="#054684" d="M-122.687-63.759L704.008 67.177l-78.53 495.82-826.695-130.936z"/>
-      <path fill="#0D97D5" d="M-134.3 6.37L693.381 137.46l-56.206 354.874-827.683-131.092z"/>
-      <path fill="#8DBBE8" d="M-145.599 77.705l827.683 131.092-33.727 212.94-827.682-131.092z"/>
-      <path stroke="#979797" fill="#008C7E" d="M-122.687-63.759L704.008 67.177l-22.34 141.048-826.695-130.936z"/>
-      <path fill="#4FB2B4" d="M-134.3 6.37L693.381 137.46l-22.496 142.036-827.683-131.092z"/>
-      <path fill="#6BD1DB" d="M-145.599 77.705l827.683 131.092-22.396 141.4-827.682-131.093z"/>
-      <path fill="#F3F2FF" d="M-156.797 148.405l827.683 131.092-11.246 71.005-827.683-131.092z"/>
+    <g fill-rule="nonzero" mask="url(#b)">
+      <path fill="#5BCEFA" d="M-123.103-64.33L704.58 66.761l-78.687 496.807-827.682-131.092z"/>
+      <path fill="#F5A9B8" d="M-138.84 35.03l827.683 131.093-47.212 298.084-827.683-131.092z"/>
+      <path fill="#FFF" d="M-154.577 134.392l827.682 131.092-15.737 99.362-827.683-131.092z"/>
     </g>
   </g>
   <path d="M74.715 319.095c-27.016 25.776-34 56-25 79s44 23 52-3 18-38 51-45 31-48 6-56-56.985-.776-84 25z" fill-opacity=".34" fill="#FFF"/>

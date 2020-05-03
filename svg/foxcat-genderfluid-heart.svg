@@ -6,8 +6,8 @@
   height="128px"
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
-<title>foxcat-pride</title>
-<g id="foxcat-pride">
+<title>foxcat-genderfluid-heart</title>
+<g id="foxcat-genderfluid-heart">
 <g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
 <g id="Body">
   <clipPath id="body-mask" maskUnits="userSpaceOnUse">
@@ -71,14 +71,11 @@
     </mask>
     <use fill="#D8D8D8" href="#a"/>
     <g fill-rule="nonzero" mask="url(#b)">
-      <path fill="#750787" d="M-123.103-64.33L704.58 66.761l-78.687 496.807-827.682-131.092z"/>
-      <path fill="#004DFF" d="M-123.103-64.33L704.58 66.761l-68.901 435.024-827.683-131.092z"/>
-      <path fill="#008026" d="M-123.103-64.33L704.58 66.761l-59.015 372.605-827.683-131.092z"/>
-      <path fill="#FFED00" d="M-123.103-64.33L704.58 66.761l-49.23 310.822-827.682-131.092z"/>
-      <path fill="#FF8C00" d="M-123.103-64.33L704.58 66.761l-39.343 248.403-827.683-131.092z"/>
-      <path fill="#E40303" d="M-123.103-64.33L704.58 66.761l-29.558 186.62-827.683-131.091z"/>
-      <path fill="#784F17" d="M-123.103-64.33L704.58 66.761l-19.672 124.201-827.682-131.092z"/>
-      <path fill="#000" d="M-123.103-64.33L704.58 66.761l-9.886 62.419L-132.99-1.911z"/>
+      <path fill="#333EBD" d="M-123.103-64.33L704.58 66.761l-78.687 496.807-827.682-131.092z"/>
+      <path fill="#000" d="M-123.103-64.33L704.58 66.761l-62.95 397.445-827.682-131.092z"/>
+      <path fill="#BE18D6" d="M-123.103-64.33L704.58 66.761l-47.212 298.084-827.683-131.092z"/>
+      <path fill="#FFF" d="M-123.103-64.33L704.58 66.761l-31.475 198.722-827.682-131.092z"/>
+      <path fill="#FF75A2" d="M-123.103-64.33L704.58 66.761l-15.737 99.36L-138.84 35.032z"/>
     </g>
   </g>
   <path d="M74.715 319.095c-27.016 25.776-34 56-25 79s44 23 52-3 18-38 51-45 31-48 6-56-56.985-.776-84 25z" fill-opacity=".34" fill="#FFF"/>

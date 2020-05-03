@@ -6,8 +6,8 @@
   height="128px"
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
-<title>foxcat-lesbian</title>
-<g id="foxcat-lesbian">
+<title>foxcat-genderqueer-heart</title>
+<g id="foxcat-genderqueer-heart">
 <g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
 <g id="Body">
   <clipPath id="body-mask" maskUnits="userSpaceOnUse">
@@ -71,13 +71,9 @@
     </mask>
     <use fill="#D8D8D8" href="#a"/>
     <g fill-rule="nonzero" mask="url(#b)">
-      <path fill="#8A1E04" d="M-123.103-64.33L704.58 66.761l-78.687 496.807-827.682-131.092z"/>
-      <path fill="#C54E54" d="M-123.103-64.33L704.58 66.761l-67.446 425.834-827.682-131.092z"/>
-      <path fill="#E4ACCF" d="M-123.103-64.33L704.58 66.761l-56.205 354.862-827.683-131.092z"/>
-      <path fill="#EDEDEB" d="M-123.103-64.33L704.58 66.761l-44.964 283.89-827.683-131.092z"/>
-      <path fill="#D063A6" d="M-123.103-64.33L704.58 66.761l-33.723 212.916-827.683-131.092z"/>
-      <path fill="#B75592" d="M-123.103-64.33L704.58 66.761l-22.482 141.944-827.683-131.092z"/>
-      <path fill="#A40061" d="M-123.103-64.33L704.58 66.761l-11.24 70.972L-134.345 6.642z"/>
+      <path fill="#4A8123" d="M-123.103-64.33L704.58 66.761l-78.687 496.807-827.682-131.092z"/>
+      <path fill="#FFF" d="M-123.103-64.33L704.58 66.761l-52.458 331.204-827.683-131.092z"/>
+      <path fill="#B57EDC" d="M-123.103-64.33L704.58 66.761l-26.229 165.602-827.683-131.092z"/>
     </g>
   </g>
   <path d="M74.715 319.095c-27.016 25.776-34 56-25 79s44 23 52-3 18-38 51-45 31-48 6-56-56.985-.776-84 25z" fill-opacity=".34" fill="#FFF"/>
