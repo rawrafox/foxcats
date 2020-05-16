@@ -7,8 +7,7 @@
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
 <title>foxcat-cookie-nom</title>
-<g id="foxcat-cookie-nom">
-<g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
+<g id="foxcat-cookie-nom" transform="translate(0,8.508816)" fill="none">>
 <g id="Body">
   <path id="body"
     fill="#ff9437"
@@ -107,7 +106,6 @@
   <path
      d="m 196,176 c 13.33333,47.33333 23,71.33333 29,72 6,0.66667 26.66667,-18 62,-56 27.33333,46 43.66667,71.33333 49,76 5.33333,4.66667 28,-15.66667 68,-61"
      style="stroke:#2f2f2f;stroke-width:30;stroke-linecap:round;stroke-linejoin:round" />
-</g>
 </g>
 </g>
 </svg>

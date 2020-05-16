@@ -14,10 +14,6 @@ Options = {
 OptionParser.new do |opts|
   opts.banner = "Usage: foxcat-generator [options]"
 
-  opts.on("-i", "--input INPUT", "Foxcat definition") do |v|
-    Options[:input] = v
-  end
-
   opts.on("-s", "--svg SVG", "SVG output folder") do |v|
     Options[:svg] = v
   end
@@ -30,8 +26,6 @@ OptionParser.new do |opts|
     Options[:thumbnails] = v
   end
 end.parse!
-
-InputDirectory = File.dirname(Options[:input])
 
 FileUtils.mkdir_p(Options[:svg])
 FileUtils.mkdir_p(Options[:png])
@@ -51,14 +45,21 @@ Footer = <<END
 </svg>
 END
 
-JSON.parse(File.read(Options[:input])).each do |name, layers|
+
+ARGV.each do |filename|
+  dirname = File.dirname(filename)
+
+  json = JSON.parse(File.read(filename))
+  name = json.fetch("name", "foxcat")
+  layers = json.fetch("layers")
+
   output = String.new
   output << Header
   output << "<title>#{name}</title>\n"
-  output << "<g id=\"#{name}\">\n"
-  output << "<g id=\"foxcatblob\" transform=\"translate(0,8.508816)\" fill=\"none\">\n"
-  layers.each { |layer| output << File.read("#{InputDirectory}/#{layer}") + "\n" }
-  output << "</g>\n"
+  output << "<g id=\"#{name}\" transform=\"translate(0,8.508816)\" fill=\"none\">>\n"
+  layers.each do |layer|
+    output << File.read("#{dirname}/#{layer}") + "\n"
+  end
   output << "</g>\n"
   output << Footer
 

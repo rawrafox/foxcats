@@ -1,0 +1,9 @@
+{
+  "name": "foxcat-smiling-open-mouth",
+  "layers": [
+    "parts/body.svg",
+    "eyes/smiling.svg",
+    "whiskers/default.svg",
+    "mouths/open.svg"
+  ]
+}

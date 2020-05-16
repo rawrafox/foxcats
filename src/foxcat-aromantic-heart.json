@@ -1,0 +1,11 @@
+{
+  "name": "foxcat-aromantic-heart",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "mouths/default.svg",
+    "hearts/aromantic.svg",
+    "parts/arms.svg"
+  ]
+}

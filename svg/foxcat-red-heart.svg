@@ -7,8 +7,7 @@
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
 <title>foxcat-red-heart</title>
-<g id="foxcat-red-heart">
-<g id="foxcatblob" transform="translate(0,8.508816)" fill="none">
+<g id="foxcat-red-heart" transform="translate(0,8.508816)" fill="none">>
 <g id="Body">
   <path id="body"
     fill="#ff9437"
@@ -73,6 +72,5 @@
      d="m 530.65051,531.0434 c -31.77834,-10.52821 -58.84903,-36.11739 -87.49796,-64.03211 -28.64894,-27.91473 -85.44172,-32.76122 -117.34285,-0.9968 -31.90112,31.76442 -25.38411,79.79324 -3.42169,112.11898 21.96243,32.32574 100.91477,76.11814 173.16882,89.91089" />
 </g>
 
-</g>
 </g>
 </svg>

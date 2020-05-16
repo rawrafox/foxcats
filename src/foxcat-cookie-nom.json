@@ -1,0 +1,11 @@
+{
+  "name": "foxcat-cookie-nom",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "food/clip.svg",
+    "food/cookie.svg",
+    "mouths/default.svg"
+  ]
+}

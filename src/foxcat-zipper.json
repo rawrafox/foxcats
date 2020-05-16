@@ -1,0 +1,9 @@
+{
+  "name": "foxcat-zipper",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "mouths/zipper.svg"
+  ]
+}

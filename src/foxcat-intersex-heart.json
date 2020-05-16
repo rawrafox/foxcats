@@ -1,0 +1,11 @@
+{
+  "name": "foxcat-intersex-heart",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "mouths/default.svg",
+    "hearts/intersex.svg",
+    "parts/arms.svg"
+  ]
+}

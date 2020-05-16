@@ -1,0 +1,11 @@
+{
+  "name": "foxcat-polyamory-heart",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "mouths/default.svg",
+    "hearts/polyamory.svg",
+    "parts/arms.svg"
+  ]
+}

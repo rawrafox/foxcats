@@ -10,37 +10,8 @@ Queer Foxcats is licensed under [CC0](https://creativecommons.org/share-your-wor
 
 ## What’s included?
 
-A whole bunch of pride flags represented as blobby foxcats!
+A whole bunch of pride hearts represented as blobby foxcats!
 
-### Included flags
+## Running
 
-There are currently sixteen flags included:
-
-- ace (asexual)
-- agender
-- arom (aromantic)
-- autism
-- bi (bisexual)
-- genderfluid
-- gerderqueer
-- intersex
-- lesbian
-- male homosexual
-- enby (non-binary)
-- pan (pansexual)
-- polyam (polyamory)
-- polysexual
-- pride
-- sapphic (a flag for all lesbians)
-- trans (transgender)
-
-## Structure of project
-
-- `/hearts` is where you’ll find the SVG-partials used to make the hearts, they are ripped from [Queer Cats](https://github.com/ZoeBijl/QueerCats/).
-- `/parts` is where you'll find the SVG-partials used to make the bodyparts.
-- `/png` contains exported PNG-files (128px).
-- `/svg` contains exported SVG-files.
-- `foxcat-generator` is the script to mash it all together.
-- `foxcats.json` is what tells the script how to mash it all together.
-
-To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, and lastly just `./foxcat-generator`.
+To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, and lastly just `./foxcat-generator src/**/*.json`.

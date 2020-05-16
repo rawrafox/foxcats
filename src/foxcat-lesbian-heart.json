@@ -1,0 +1,11 @@
+{
+  "name": "foxcat-lesbian-heart",
+  "layers": [
+    "parts/body.svg",
+    "eyes/default.svg",
+    "whiskers/default.svg",
+    "mouths/default.svg",
+    "hearts/lesbian.svg",
+    "parts/arms.svg"
+  ]
+}
