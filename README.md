@@ -14,4 +14,4 @@ A whole bunch of pride hearts represented as blobby foxcats!
 
 ## Running
 
-To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, and lastly just `./foxcat-generator src/**/*.json`.
+To run the project, first you need to have Ruby and Node installed somehow. Then `npm install svgexport -g` for the SVG to PNG conversion, `gem install nokogiri` for XML parsing and lastly just `./foxcat-generator src/**/*.json`.

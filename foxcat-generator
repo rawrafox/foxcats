@@ -2,7 +2,8 @@
 
 require "fileutils"
 require "json"
-require 'optparse'
+require "nokogiri"
+require "optparse"
 
 Options = {
   input: "#{__dir__}/foxcats.json",
@@ -30,7 +31,7 @@ end.parse!
 FileUtils.mkdir_p(Options[:svg])
 FileUtils.mkdir_p(Options[:png])
 
-Header = <<END
+Document = <<-END
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -39,34 +40,45 @@ Header = <<END
   height="128px"
   viewBox="0 0 750 750"
   style="shape-rendering: geometricPrecision">
-END
-
-Footer = <<END
 </svg>
 END
 
+Stylesheet = <<-END
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="xml" encoding="UTF-8" indent="yes" />
+  <xsl:strip-space elements="*" />
+
+  <xsl:template match="/">
+    <xsl:copy-of select="." />
+  </xsl:template>
+</xsl:stylesheet>
+END
+  
+XSLT = Nokogiri::XSLT.parse(Stylesheet)
 
 ARGV.each do |filename|
   dirname = File.dirname(filename)
 
   json = JSON.parse(File.read(filename))
-  name = json.fetch("name", "foxcat")
+  name = json["name"]
   layers = json.fetch("layers")
 
-  output = String.new
-  output << Header
-  output << "<title>#{name}</title>\n"
-  output << "<g id=\"#{name}\" transform=\"translate(0,8.508816)\" fill=\"none\">>\n"
+  svg = Nokogiri::XML.parse(Document)
+
+  g = svg.create_element("g", transform: "translate(0,8.508816)", fill: "none")
+
+  svg.root.add_child(svg.create_element("title", name)) if name
+  svg.root.add_child(g)
+
   layers.each do |layer|
-    output << File.read("#{dirname}/#{layer}") + "\n"
+    g.add_child(Nokogiri::XML.fragment(File.read("#{dirname}/#{layer}")))
   end
-  output << "</g>\n"
-  output << Footer
 
-  svg = "#{Options[:svg]}/#{name}.svg"
-  png = "#{Options[:png]}/#{name}.png"
+  svg_path = "#{Options[:svg]}/#{name}.svg"
+  png_path = "#{Options[:png]}/#{name}.png"
 
-  File.write(svg, output)
+  File.write(svg_path, XSLT.transform(svg).to_s)
 
-  system("svgexport #{svg} #{png}") if Options[:thumbnails]
+  system("svgexport #{svg_path} #{png_path}") if Options[:thumbnails]
 end
